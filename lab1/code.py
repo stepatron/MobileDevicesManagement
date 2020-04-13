@@ -15,7 +15,10 @@ call_in_rate = 0
 call_out_rate = 2
 call_out_free_each = 20
 sms_out_rate = 2
-phone_number = '933156729'
+phone_number_default = '933156729'
+
+phone_number = input('Введите номер телефона (по умолчанию 933156729): ')
+if phone_number == '': phone_number = phone_number_default
 
 # Генератор двумерного списка (таблицы) из файла csv
 file_in = open('data.csv', 'r')
@@ -25,8 +28,5 @@ file_in.close()
 bill_calls, bill_smses = bill_calls_calc()
 
 print('Затраты абонента с номером', phone_number, 'составляют:', bill_calls + bill_smses, 'рублей')
-# os.system("pause")
 
-a = input()
-print(a)
-exit(0)
+os.system("pause")
