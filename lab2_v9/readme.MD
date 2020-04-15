@@ -11,5 +11,6 @@ Linux
 3. Запустите: python3 code_linux.py
 
 Исполнительный файл program https://drive.google.com/file/d/1BnOPsLq3LZqVIL3plb2KHEbSYrZQkAFF/view?usp=sharing
+1. Можно запустить program_linux
 
 telegram: stepatron
