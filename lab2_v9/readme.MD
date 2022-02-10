@@ -13,4 +13,4 @@ Linux
 Исполнительный файл program https://drive.google.com/file/d/1BnOPsLq3LZqVIL3plb2KHEbSYrZQkAFF/view?usp=sharing
 1. Можно запустить program_linux на Linux
 
-telegram: stepatron
+TG: ztipka
